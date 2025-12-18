@@ -3,6 +3,6 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'http://localhost:4321', // Définir l'URL du site pour éviter les erreurs "Invalid URL"
+    site: 'https://domhenrique.newappai.com', // Définir l'URL du site pour le déploiement
     integrations: [tailwind()],
 });
